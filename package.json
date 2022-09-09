@@ -11,10 +11,10 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.18.7-10-x",
+  "version": "0.18.8-28-x",
   "versions": {
-    "git": "0.18.7-10-x",
-    "npm": "0.18.6"
+    "git": "0.18.8-28-x",
+    "npm": "0.18.7"
   },
   "workspaces": [
     "packages/*"
@@ -38,11 +38,11 @@
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@polkadot/dev": "^0.67.113",
-    "@types/jest": "^28.1.7"
+    "@babel/core": "^7.18.13",
+    "@polkadot/dev": "^0.67.120",
+    "@types/jest": "^29.0.0"
   },
   "resolutions": {
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.2"
   }
 }
