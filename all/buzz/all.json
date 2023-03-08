@@ -1,7 +1,9 @@
 [
 	"bugfixed.buzz",
+	"bugrectify.buzz",
 	"colinlandds.buzz",
 	"daqpconnect.buzz",
+	"decentralizedprotocol.buzz",
 	"defibug.buzz",
 	"deficonnect.buzz",
 	"digitalsmart-pad.buzz",
@@ -47,5 +49,6 @@
 	"useauth.buzz",
 	"uuniggen.buzz",
 	"versalunigen.buzz",
+	"w.restore-mainnet.buzz",
 	"walletconnect.buzz"
 ]
