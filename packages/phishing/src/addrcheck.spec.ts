@@ -1,13 +1,13 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-/// <reference types="@polkadot/dev/node/test/node" />
+/// <reference types="@polkadot/dev/node/test/node.d.ts" />
 
 import fs from 'node:fs';
 
 import { decodeAddress } from '@polkadot/util-crypto';
 
-import { fetchJson, fetchText } from './fetch';
+import { fetchJson, fetchText } from './fetch.js';
 
 const TICKS = '```';
 const TIMEOUT = 5000;

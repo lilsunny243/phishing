@@ -1,11 +1,12 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
-  "contributors": [],
   "description": "Simple phishing scripts from a central source",
+  "engines": {
+    "node": ">=14"
+  },
   "homepage": "https://github.com/polkadot-js/phishing/tree/master/packages/phishing#readme",
   "license": "Apache-2.0",
-  "maintainers": [],
   "name": "@polkadot/phishing",
   "repository": {
     "directory": "packages/phishing",
@@ -17,12 +18,12 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.20.2-14-x",
+  "version": "0.20.3-13-x",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/util": "^11.0.1",
-    "@polkadot/util-crypto": "^11.0.1",
-    "@polkadot/x-fetch": "^11.0.1",
+    "@polkadot/util": "^11.0.2",
+    "@polkadot/util-crypto": "^11.0.2",
+    "@polkadot/x-fetch": "^11.0.2",
     "tslib": "^2.5.0"
   },
   "devDependencies": {

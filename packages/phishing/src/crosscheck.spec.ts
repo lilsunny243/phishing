@@ -1,13 +1,13 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-/// <reference types="@polkadot/dev/node/test/node" />
+/// <reference types="@polkadot/dev/node/test/node.d.ts" />
 
 import { load as yamlParse } from 'js-yaml';
 import fs from 'node:fs';
 import process from 'node:process';
 
-import { fetchJson, fetchText } from './fetch';
+import { fetchJson, fetchText } from './fetch.js';
 
 interface CryptoScamEntry {
   addresses: Record<string, string[]>;

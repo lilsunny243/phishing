@@ -1,6 +1,9 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "bugs": "https://github.com/polkadot-js/phishing/issues",
+  "engines": {
+    "node": ">=14"
+  },
   "homepage": "https://github.com/polkadot-js/phishing#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.2.0",
@@ -11,17 +14,17 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.20.2-14-x",
+  "version": "0.20.3-13-x",
   "versions": {
-    "git": "0.20.2-14-x",
-    "npm": "0.20.1"
+    "git": "0.20.3-13-x",
+    "npm": "0.20.2"
   },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "build": "polkadot-dev-build-ts",
-    "build:extra": "node scripts/sortAll.mjs",
+    "build:before": "node scripts/sortAll.mjs",
     "build:release": "polkadot-ci-ghact-build",
     "build:release:ipfs": "node scripts/ipfsUpload.mjs",
     "build:rollup": "polkadot-exec-rollup --config",
@@ -34,12 +37,12 @@
     "test": "polkadot-dev-run-test --env node ^addrcheck ^crosscheck"
   },
   "dependencies": {
-    "@pinata/sdk": "^1.2.1",
+    "@pinata/sdk": "^2.1.0",
     "dnslink-cloudflare": "^3.0.0"
   },
   "devDependencies": {
-    "@polkadot/dev": "^0.70.4",
-    "@types/node": "^18.14.6"
+    "@polkadot/dev": "^0.71.9",
+    "@types/node": "^18.15.3"
   },
   "resolutions": {
     "typescript": "^4.9.5"

@@ -1,9 +1,9 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-/// <reference types="@polkadot/dev/node/test/node" />
+/// <reference types="@polkadot/dev/node/test/node.d.ts" />
 
-import { checkAddress, checkIfDenied } from '.';
+import { checkAddress, checkIfDenied } from './index.js';
 
 describe('checkIfDenied', (): void => {
   it('returns false when host is not listed', async (): Promise<void> => {
