@@ -1,6 +1,7 @@
 [
 	"claim-seedilfy.pl",
 	"connect-seedify.com.pl",
+	"dao-seedify.pl",
 	"gamefi-seedify.com.pl",
 	"gamefi-seedify.pl",
 	"main-seedify.com.pl",
@@ -8,6 +9,9 @@
 	"name-seedify.pl",
 	"page-seedify.com.pl",
 	"polkastarter.com.pl",
+	"seedify-claim.com.pl",
+	"seedify-claim.pl",
+	"seedify-claiming.pl",
 	"seedlfy.com.pl",
 	"seedlfy.pl",
 	"site-seedify.pl",

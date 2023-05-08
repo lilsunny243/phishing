@@ -1,7 +1,7 @@
 // Copyright 2020-2023 @polkadot/phishing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-/// <reference types="@polkadot/dev/node/test/node.d.ts" />
+/// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import fs from 'node:fs';
 
@@ -27,7 +27,7 @@ async function loopSome (site: string, matcher: () => Promise<string[] | null>):
           found.push(address);
         }
       });
-    } catch (error) {
+    } catch {
       // console.error(error);
     }
 
