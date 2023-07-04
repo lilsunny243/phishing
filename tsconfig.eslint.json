@@ -4,6 +4,14 @@
     "baseUrl": "./packages",
     "composite": false
   },
-  "include": ["packages/**/src/**/*", "scripts/*"],
-  "exclue": ["**/node_modules/**/*"]
+  "include": [
+		"packages/**/src/**/*",
+		"scripts/*",
+    ".prettierrc.cjs",
+    "eslint.config.js",
+		"rollup.config.js"
+	],
+  "exclue": [
+		"**/node_modules/**/*"
+	]
 }

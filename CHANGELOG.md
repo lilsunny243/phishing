@@ -1,5 +1,39 @@
 # CHANGELOG
 
+## 0.21.5 Jun 11, 2023
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Adjust object index access for stricter tsconfig settings
+- Update to `@polkadot/util` 12.3.1
+
+
+## 0.21.4 Jun 5, 2023
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Update to `@polkadot/util` 12.2.2
+
+
+## 0.21.3 May 13, 2023
+
+Contributed:
+
+- Too many URLs to mention (Thanks to all [contributors](https://github.com/polkadot-js/phishing/graphs/contributors))
+
+Changes:
+
+- Update to `@polkadot/util` 12.2.1
+
+
 ## 0.21.2 Apr 29, 2023
 
 Contributed:

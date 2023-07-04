@@ -1,5 +1,7 @@
 [
 	"accessconnect.icu",
+	"activatenodes.icu",
+	"appconnect.icu",
 	"authassets.icu",
 	"authenticateaddress.icu",
 	"authyconnector.icu",
@@ -9,6 +11,7 @@
 	"contractsync.icu",
 	"corewallet.icu",
 	"crypto-walletconnect.icu",
+	"dapprotocol.icu",
 	"defi-protocol.icu",
 	"holdervalidator.icu",
 	"imatoken.icu",
@@ -26,6 +29,7 @@
 	"mymultinodes.icu",
 	"nodevalidation.icu",
 	"pancakesvvap.icu",
+	"reservedapptool.icu",
 	"supportinterface.icu",
 	"tokenpockat.icu",
 	"tokenpocketn.icu",
