@@ -18,13 +18,13 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.21.6-72-x",
+  "version": "0.21.6-148-x",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/util": "^12.3.1",
-    "@polkadot/util-crypto": "^12.3.1",
-    "@polkadot/x-fetch": "^12.3.1",
-    "tslib": "^2.5.3"
+    "@polkadot/util": "^12.3.2",
+    "@polkadot/util-crypto": "^12.3.2",
+    "@polkadot/x-fetch": "^12.3.2",
+    "tslib": "^2.6.0"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
